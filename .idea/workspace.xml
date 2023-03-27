@@ -4,15 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="84943c0b-e39a-417d-af30-06eacc8edc4e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TheFirstClass.java" afterDir="false" />
+    <list default="true" id="84943c0b-e39a-417d-af30-06eacc8edc4e" name="Changes" comment="Learn Test">
+      <change afterPath="$PROJECT_DIR$/src/test/java/FindElement/FinById.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Resources/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +53,83 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\HazmSerdah\Desktop\New folder (3)\TestQACart\src\test\java\Resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.FinById.GetTextByClassName">
+    <configuration name="FinById" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestQACart" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="FindElement.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="FindElement" />
+      <option name="MAIN_CLASS_NAME" value="FindElement.FinById" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FinById.GetTextByClassName" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestQACart" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="FindElement.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="FindElement" />
+      <option name="MAIN_CLASS_NAME" value="FindElement.FinById" />
+      <option name="METHOD_NAME" value="GetTextByClassName" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FinById.GetTextById" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestQACart" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="FindElement.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="FindElement" />
+      <option name="MAIN_CLASS_NAME" value="FindElement.FinById" />
+      <option name="METHOD_NAME" value="GetTextById" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FinById.GetTextByName" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestQACart" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="FindElement.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="FindElement" />
+      <option name="MAIN_CLASS_NAME" value="FindElement.FinById" />
+      <option name="METHOD_NAME" value="GetTextByName" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TheFirstClass" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestQACart" />
       <option name="PACKAGE_NAME" value="" />
@@ -72,6 +143,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.FinById.GetTextByClassName" />
+        <item itemvalue="TestNG.FinById.GetTextByName" />
+        <item itemvalue="TestNG.FinById.GetTextById" />
+        <item itemvalue="TestNG.FinById" />
         <item itemvalue="TestNG.TheFirstClass" />
       </list>
     </recent_temporary>
@@ -86,10 +161,24 @@
       <updated>1679775687556</updated>
       <workItem from="1679775687956" duration="744000" />
       <workItem from="1679781611815" duration="2863000" />
+      <workItem from="1679833815924" duration="2663000" />
+      <workItem from="1679845131078" duration="4393000" />
     </task>
+    <task id="LOCAL-00001" summary="Learn Test">
+      <created>1679833890193</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1679833890193</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Learn Test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Learn Test" />
   </component>
 </project>
