@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="84943c0b-e39a-417d-af30-06eacc8edc4e" name="Changes" comment="Test">
-      <change afterPath="$PROJECT_DIR$/src/test/java/FindElement/FindByTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/FindElement/HomePOM.java" afterDir="false" />
+    <list default="true" id="84943c0b-e39a-417d-af30-06eacc8edc4e" name="Changes" comment="upgrade The lar">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/FindElement/FinById.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FindElement/FinById.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/FindElement/FindByTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FindElement/FindByTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,23 +58,6 @@
     </key>
   </component>
   <component name="RunManager" selected="TestNG.FindByTest">
-    <configuration name="FinById" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TestQACart" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="FindElement.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="FindElement" />
-      <option name="MAIN_CLASS_NAME" value="FindElement.FinById" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="FindByTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestQACart" />
       <extension name="coverage">
@@ -131,11 +111,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TheFirstClass" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="FindByTest.checkTheEmailFiledIsEnable" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestQACart" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TheFirstClass" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="FindElement.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="FindElement" />
+      <option name="MAIN_CLASS_NAME" value="FindElement.FindByTest" />
+      <option name="METHOD_NAME" value="checkTheEmailFiledIsEnable" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FindByTest.checkTheEmailFiledIsSelected" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestQACart" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="FindElement.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="FindElement" />
+      <option name="MAIN_CLASS_NAME" value="FindElement.FindByTest" />
+      <option name="METHOD_NAME" value="checkTheEmailFiledIsSelected" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -145,10 +150,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.FindByTest" />
+        <item itemvalue="TestNG.FindByTest.checkTheEmailFiledIsSelected" />
+        <item itemvalue="TestNG.FindByTest.checkTheEmailFiledIsEnable" />
         <item itemvalue="TestNG.FindByTest.checkTheCheckBoxIsWorkable" />
         <item itemvalue="TestNG.FindByTest.DropdownList" />
-        <item itemvalue="TestNG.TheFirstClass" />
-        <item itemvalue="TestNG.FinById" />
       </list>
     </recent_temporary>
   </component>
@@ -165,7 +170,8 @@
       <workItem from="1679833815924" duration="2663000" />
       <workItem from="1679845131078" duration="5627000" />
       <workItem from="1679923636039" duration="5856000" />
-      <workItem from="1680053788074" duration="3969000" />
+      <workItem from="1680053788074" duration="4084000" />
+      <workItem from="1680126797862" duration="2199000" />
     </task>
     <task id="LOCAL-00001" summary="Learn Test">
       <created>1679833890193</created>
@@ -181,7 +187,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679876343383</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="upgrade The lar">
+      <created>1680058285064</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1680058285064</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -190,6 +203,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Learn Test" />
     <MESSAGE value="Test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test" />
+    <MESSAGE value="upgrade The lar" />
+    <option name="LAST_COMMIT_MESSAGE" value="upgrade The lar" />
   </component>
 </project>

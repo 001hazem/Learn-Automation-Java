@@ -3,6 +3,7 @@ package FindElement;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Dimension;
+import org.openqa.selenium.Point;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Select;
@@ -50,22 +51,47 @@ public class FindByTest {
 //        System.out.println(TextElement);
 //
 //    }
-    @Test(priority = 3)
-    public void checkTheCheckBoxIsWorkable() {
-        driver.findElement(By.id("Tester")).click();
-    }
-
-    @Test
-    public void DropdownList(){
-
-        Select drop=new Select(driver.findElement(By.id("courses")));
-        drop.selectByValue("selenium");
-    }
-
-//    @AfterClass
-//    public void tearDown(){
-//        driver.quit();
+//    @Test(priority = 3)
+//    public void checkTheCheckBoxIsWorkable() {
+//        driver.findElement(By.id("Tester")).click();
 //    }
+//
+//    @Test
+//    public void DropdownList(){
+//
+//        Select drop=new Select(driver.findElement(By.id("courses")));
+//        drop.selectByValue("selenium");
+//    }
+    @Test(priority = 5)
+        public void checkTheEmailFiledIsEnable(){
+
+          boolean  emailField= driver.findElement(By.id("inputEmail")).isEnabled();
+          System.out.println(emailField);
+
+    }
+    @Test(priority = 7)
+    public void checkTheEmailFiledIsSelected(){
+
+        boolean  selectedField= driver.findElement(By.xpath("/html/body/div[7]/form/div/label/input")).isSelected();
+        System.out.println(selectedField);
+
+        Point locationItem= driver.findElement(By.xpath("/html/body/div[7]/form/div/label/input")).getLocation();
+        System.out.println(locationItem.x);
+        System.out.println(locationItem.y);
+
+        Dimension sizeTheItem=driver.findElement(By.xpath("/html/body/div[7]/form/div/label/input")).getSize();
+        System.out.println(sizeTheItem.height);
+        System.out.println(sizeTheItem.width);
+
+    }
+
+
+
+    @AfterClass
+    public void tearDown(){
+        driver.quit();
+    }
+
 }
 
 
